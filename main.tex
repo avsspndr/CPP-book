@@ -1,0 +1,113 @@
+%!TEX program = lualatex
+\documentclass[a4paper,12pt,openany,oneside]{memoir}
+
+\usepackage{microtype}
+\usepackage[hmargin = 1.91cm, vmargin = 2.54cm]{geometry}
+\usepackage{float}
+
+\usepackage[no-math]{fontspec}
+\setmainfont{STIXTwoText}[
+    Path            = ./fonts/STIX2/   ,
+    UprightFont     = *-Regular.otf    ,
+    BoldFont        = *-Bold.otf       ,
+    ItalicFont      = *-Italic.otf     ,
+    BoldItalicFont  = *-BoldItalic.otf
+    ]
+
+\usepackage{unicode-math}
+\setmathfont{STIXTwoMath.otf}[Path = ./fonts/STIX2/]
+
+\setmonofont{FiraCode}[
+    Path        = ./fonts/FiraCode/ ,
+    UprightFont = *-Regular.ttf    ,
+    BoldFont    = *-Bold.ttf     ,
+    ]
+
+\usepackage[usenames,svgnames]{xcolor}
+\usepackage{icomma}
+\usepackage{tocloft}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{amsmath}
+\usepackage{listings}
+\usepackage[english,russian]{babel}
+
+
+% Chapter header format
+\renewcommand{\afterchapternum}{\hspace{1ex}}
+\renewcommand{\chapnamefont}{\centering\bfseries\LARGE}
+\renewcommand{\chapnumfont}{\centering\bfseries\LARGE}
+\renewcommand{\chaptitlefont}{\centering\bfseries\LARGE}
+\sethangfrom{\noindent #1}
+\indentafterchapter
+
+% Correct display of the new chapter and section formats with babel
+\addto\captionsrussian{
+    \renewcommand{\secheadstyle}{\centering\bfseries\Large\S\space}
+    \renewcommand{\subsecheadstyle}{\centering\bfseries\large}
+    \renewcommand{\contentsname}{\bfseries Содержание}
+    \renewcommand{\chaptername}{\S}
+    }
+    
+\pagestyle{plain}
+\OnehalfSpacing
+
+% Define new language style for C++
+\lstdefinestyle{MyCPP}{
+    language=C++ ,
+    escapechar=\@ ,
+    breaklines ,
+    resetmargins=true ,
+    keepspaces=true ,
+    basicstyle=\ttfamily\small ,
+    keywordstyle=\color{NavyBlue}\bfseries\ttfamily\small ,
+    stringstyle=\color{Blue}\ttfamily\small ,
+    commentstyle=\color{Green}\ttfamily\small ,
+    morecomment=[l][\color{LimeGreen}]{\#} ,
+    emph=[1]{cout,endl,std,string,ofstream,ifstream} ,
+    emphstyle=[1]\color{ForestGreen}\bfseries\ttfamily\small ,
+    literate=
+        *{0}{{{\color{Magenta}0}}}1
+        {1}{{{\color{Magenta}1}}}1
+        {2}{{{\color{Magenta}2}}}1
+        {3}{{{\color{Magenta}3}}}1
+        {4}{{{\color{Magenta}4}}}1
+        {5}{{{\color{Magenta}5}}}1
+        {6}{{{\color{Magenta}6}}}1
+        {7}{{{\color{Magenta}7}}}1
+        {8}{{{\color{Magenta}8}}}1
+        {9}{{{\color{Magenta}9}}}1
+        {(}{{{\color{Red}(}}}1
+        %fix right parenthesis ) not being colored
+        {')}{{{\color{Red})}}}1
+        %
+        {[}{{{\color{Red}[}}}1
+        {]}{{{\color{Red}]}}}1
+        {=}{{{\color{Red}=}}}1
+        {;}{{{\color{Red};}}}1
+        {<}{{{\color{Red}<}}}1
+        {.}{{{\color{Red}.}}}1
+        {>}{{{\color{Red}>}}}1
+        {+}{{{\color{Red}+}}}1
+        {-}{{{\color{Red}-}}}1
+        {*}{{{\color{Red}*}}}1
+        {\&}{{{\color{Red}\&}}}1
+        {\%}{{{\color{Red}\%}}}1
+}
+
+\begin{document}
+% New section numbering format
+\setsecnumformat{\csname the#1\endcsname \space}
+% Quick command for using mono bold font
+\newcommand{\monobf}[1]{{\ttfamily\textbf{#1}}}
+% Set language style for C++
+\lstset{style=MyCPP}
+
+\tableofcontents*
+\addcontentsline{toc}{chapter}{Предисловие}
+
+\input{paragraphs/paragraph-00.tex}
+\input{paragraphs/paragraph-01.tex}
+\input{paragraphs/paragraph-02.tex}
+
+\end{document}
