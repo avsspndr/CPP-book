@@ -1,0 +1,104 @@
+\chapter{Динамические типы данных}
+\section{Лабораторная работа 1}
+\begin{enumerate}[leftmargin=*]
+    \item Напишите программу, реализующую объявление, заполнение и удаление динамического массива. Программа также должна выполнять вывод массива на экран и запись его в текстовый (бинарный) файл.
+    \item Реализуйте предыдущую задачу с помощью подпрограмм (процедур и функций).
+    \item Дана динамическая матрица случайных чисел размерности $N\times N$ ($N>9$). Вычислите произведение всех элементов матрицы, у которых индексы строк и столбцов четные. Результат выведите на экран.
+    \item Описать структуру с именем \monobf{STUDENT}, содержащую следующие поля:
+        \begin{itemize}
+            \item \monobf{NAME} – фамилия и инициалы;
+            \item \monobf{GROUP} – номер группы;
+            \item \monobf{SES} - успеваемость (массив из пяти элементов).
+        \end{itemize}
+    Реализовать программу, используя указатели на структуру. Запишите данные для 10 студентов в файл.
+    \item Создать структуру <<Товар>>. Каждый товар должен иметь не менее 8 полей, например, название; описание; страна и город, где произведен товар; предприятие-производитель; категория товара (продукты, хозтовары, промтовары и т.д.); цена; вес и т.д. Заполнить динамический массив десятью товарами. Реализовать поиск в массиве по названию, по вхождению слов в описание и по диапазону цены товара.
+    \item Объявите указатель на массив типа \monobf{double} и предложите пользователю выбрать его размер. Далее напишите четыре функции: первая должна выделить память для массива, вторая – заполнить ячейки данными, третья – показать данные на экран, четвертая – освободить занимаемую память. Для обхода массива использовать указатели (запрещено обращаться к элементам массива по индексам).
+\end{enumerate}
+\begin{lstlisting}
+    #include <iostream>
+    #include <fstream>
+    #include <cstdlib>
+
+    using namespace std;
+    int main(')
+    {
+        ofstream out("Array.txt"');
+        const int n=10; double* x;
+        x = new double[n];
+        for (int i=0; i<n; i++')
+        {
+            *(x+i)=rand()%10;
+            cout << "x["<< i << "]=" << *(x+i') << "\t";
+            out << *(x+i) << "\n";
+        }
+        cout << "\n"; delete[] x; out.close(');
+
+        ifstream in("Array.txt"');
+        double * y;
+        y = new double[n];
+        for (int i=0; i<n; i++')
+        {
+            in >> *(y+i);
+            cout << "y["<< i << "]="<< *(y+i') << "\t";
+        }
+        delete[] y; in.close('); return 0;
+    }
+\end{lstlisting}
+\vspace{5cm}
+\begin{lstlisting}
+    #include <iostream>
+    #include <fstream>
+    #include <cstdlib>
+    using namespace std;
+
+    double* init(int n');
+    void data(int n, double* x');
+    void print(int n, double* x');
+    void write_file(int n, double* x');
+    void del(double* x');
+
+    int main(')
+    {
+        int n; cout << "Input n: "; cin >> n;
+        double* x=init(n');
+        data(n,x');
+        print(n,x');
+        write_file(n,x');
+        del(x');
+        return 0;
+    }
+    double* init(int n') { return new double[n]; }
+    void data(int n, double* x') { for (int i=0; i<n; i++') x[i]=rand(')%10; }
+    void print(int n, double* x') { for (int i=0; i<n; i++') cout << x[i] << "\t"; }
+    void write_file(int n, double* x')
+    {
+        ofstream out ("Array.txt"');
+        for (int i=0; i<n; i++') out <<"x[" << i <<"]=" << x[i] << "\n";
+        out.close(');
+    }
+    void del(double *x') { delete[] x; }
+\end{lstlisting}
+\vspace{5cm}
+\begin{lstlisting}
+    #include <iostream>
+    using namespace std;
+    int main(')
+    {
+        const int n=8, m=8;
+        int **matrix;
+        matrix=new int*[n];
+        for (int i=0; i<n; i++')
+            matrix[i]=new int[m];
+
+        for (int i=0; i<n; i++')
+        {
+            for (int j=0; j<n; j++')
+            {
+                matrix[i][j]=(i+j'); cout << matrix[i][j] << "\t";
+            }
+            cout << endl;
+        }
+        delete[] matrix;
+        return 0;
+    }
+\end{lstlisting}

@@ -1,0 +1,93 @@
+\chapter{Обработка строк}
+\section{Лабораторная работа 1}
+\begin{enumerate}[leftmargin=*]
+    \item В заданном тексте заменить все символы <<+>> на << - >>. В данной задаче воспользуйтесь массивом символов (Заголовочный файл \monobf{\color{LimeGreen}cstring}).
+    \begin{lstlisting}
+        #include<iostream>
+        #include<cstring>
+        using namespace std;
+        int main(')
+        {   char str[50]="(5+3)*7+65+7896";
+            cout << "Initial string is: " << str << endl;
+            for (int i=0; i<strlen(str); i++')
+                if (str[i] == '+'')
+                    str[i] = '-';
+            cout << "Final string is: " << str << endl;
+            return 0;
+        }
+    \end{lstlisting}
+    \item В данном тексте посчитать число символов <<+>> и <<->>.
+    \item Напишите программу, которая вычисляет длину введенной с клавиатуры строки. Реализуйте код программы, используя строковый тип данных (Заголовочный файл \monobf{\color{LimeGreen}string}').
+    \begin{lstlisting}
+        #include <iostream>
+        #include <string>
+        using namespace std;
+        int main(')
+        {
+            setlocale(LC_ALL,"Russian"');
+            string s;
+            cout <<" @\color{Blue}Введите строку@: \n"; cin >> s;
+            cout <<" @\color{Blue}Строка@ " << s << " @\color{Blue}содержит@ "
+                << s.length(') << " @\color{Blue}символ(а')@.\n";
+            return 0;
+        }
+    \end{lstlisting}
+    \item Задана строка символов. Определить, есть ли заданный символ «э» в этой строке символов. Выведите на экран номер первого вхождения данного символа в строке..
+    \begin{lstlisting}
+        #include <iostream>
+        #include <string>
+        using namespace std;
+        int main(')
+        {
+            setlocale(LC_ALL,"Russian"');
+            string str("@\color{Blue}Выведите на экран номер символа в строке@."');
+            string symbol="@\color{Blue}э@";
+            unsigned int pos str=str.find(symbol');
+            if ((pos>=0') && pos(<str.length(')')')
+                    cout << "@\color{Blue}Номер первого вхождения символа@ ("
+                         << symbol << "') @\color{Blue}в строке@ \n\n("
+                         << str << "')\n\n @\color{Blue}равен@: "<< pos << endl;
+            else cout << "@\color{Blue}Такого символа в строке нет@!\n";
+            return 0;
+        }
+    \end{lstlisting}
+    \item Пусть задан некоторый текст. Вычислить, сколько раз повторяется наперед заданный символ <<\textbf{a}>>.
+    \item Задана некоторая строка символов. Создать новую строку, которая образована из данной строки чтением от конца до начала.
+    \item Задано слово. Проверить, читается ли это слово слева направо и наоборот. \textit{Простейшие \textbf{слова-палиндромы}}: мим, дед, наган, заказ, кабак, казак, мадам, шалаш.
+    \item Вводится строка слов, разделенных пробелами. Найти самое длинное слово и вывести его на экран. 
+    \item Пусть имеется текстовый файл, содержащий несколько строк символов. Подсчитать число символов <<->> в этих строках.
+    \item Задана строка символов. Подсчитать число слов в этой строке. Считать, что слова разделяются одним из символов << >> (пробел), <<,>> (запятая), <<.>> (точка).
+    \item Пусть имеется текстовый файл, содержащий несколько предложений. Подсчитать количество предложений и слов в этом файле.
+    \item Пусть имеется текстовый файл, содержащий несколько слов. Отсортировать эти слова в алфавитном порядке и записать их в другой текстовый файл.
+    \item Написать программу замены данных в строке. Пусть:\\ \textcolor{Red}{A = ''123456789''};\\
+    \textcolor{Blue}{B = ''67''};\\
+    \textcolor{Green}{C = ''-Шестьдесят семь-''};\\
+    Необходимо найти символы \textbf{"67"} (из строки B) и заменить их на \textbf{"-Шестьдесят семь-"} (из строки C) в строке A, где A в итоге должна содержать \textbf{"12345-Шестьдесят семь-89"}.
+\end{enumerate}
+\subsection{Функции работы со строками}
+\begin{table}[H]
+    \centering
+    \renewcommand{\arraystretch}{2}
+    \begin{tabular}{|m{0.31\textwidth}|m{0.63\textwidth}|}
+    \hline
+    \multicolumn{1}{|c|}{Методы класса \textcolor{Green}{\monobf{String}}} & \multicolumn{1}{c|}{Описание метода}\\
+    \hline
+    \monobf{s.length()} & Возвращает длину строки \texttt{s} \\
+    \hline
+    \monobf{s.substr(pos,length)} & возвращает подстроку из строки \texttt{s}, начиная с номера
+    \monobf{pos} длиной \monobf{length} символов; \\
+    \hline
+    \monobf{s.empty()} & возвращает значение \texttt{true}, если строка \texttt{s} пуста, \texttt{false} — в противном случае; \\
+    \hline
+    \monobf{s.insert(pos, s1)} & вставляет строку \monobf{s1} в строку \texttt{s}, начиная с позиции \texttt{pos}; \\
+    \hline
+    \monobf{s.remove(pos,length)} & удаляет из строки \texttt{s} подстроку \monobf{length} длинной \monobf{pos} символов; \\
+    \hline
+    \monobf{s.find(s1, pos)} & возвращает номер первого вхождения строки \monobf{s1} в строку \texttt{s}, поиск начинается с номера \monobf{pos}, параметр \monobf{pos} может отсутствовать, в этом случае поиск идет с начала строки; \\
+    \hline
+    \monobf{s.findfirst(s1, pos)} & возвращает номер первого вхождения любого символа из строки \monobf{s1} в строку \texttt{s}, поиск начинается с номера \monobf{pos}, который может отсутствовать.\\ 
+    \hline
+    \end{tabular}
+    \caption{Функции работы со строками}
+    \label{table_string_methods}
+\end{table}
