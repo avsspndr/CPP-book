@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.10)  14 JUN 2021 20:14
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.10)  14 JUN 2021 21:51
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/pander/luatex_projects/CPP_tutorial/main
@@ -1109,73 +1109,73 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `STIXTwoMath.otf' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-) (./paragraphs/paragraph-00.tex [1
+ [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./paragraphs/paragraph-00.tex [2]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/CodeBlocks-1.png, id=128, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-1.png, id=158, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-1.png Graphic file (type png)
 <use figures/CodeBlocks-1.png>
 Package luatex.def Info: figures/CodeBlocks-1.png  used on input line 9.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
-<figures/CodeBlocks-2.png, id=129, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-2.png, id=159, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-2.png Graphic file (type png)
 <use figures/CodeBlocks-2.png>
 Package luatex.def Info: figures/CodeBlocks-2.png  used on input line 16.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
- [2
+ [3
 
 <./figures/CodeBlocks-1.png>]
-<figures/CodeBlocks-3.png, id=138, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-3.png, id=169, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-3.png Graphic file (type png)
 <use figures/CodeBlocks-3.png>
 Package luatex.def Info: figures/CodeBlocks-3.png  used on input line 23.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
-<figures/CodeBlocks-4.png, id=139, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-4.png, id=170, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-4.png Graphic file (type png)
 <use figures/CodeBlocks-4.png>
 Package luatex.def Info: figures/CodeBlocks-4.png  used on input line 30.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
- [3<./figures/CodeBlocks-2.png><./figures/CodeBlocks-3.png>]
-<figures/CodeBlocks-5.png, id=147, 1028.34187pt x 578.16pt>
+ [4<./figures/CodeBlocks-2.png><./figures/CodeBlocks-3.png>]
+<figures/CodeBlocks-5.png, id=178, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-5.png Graphic file (type png)
 <use figures/CodeBlocks-5.png>
 Package luatex.def Info: figures/CodeBlocks-5.png  used on input line 37.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
-) (./paragraphs/paragraph-01.tex [4<./figures/CodeBlocks-4.png><./figures/CodeBlocks-5.png>] [5
+) (./paragraphs/paragraph-01.tex [5<./figures/CodeBlocks-4.png><./figures/CodeBlocks-5.png>] [6
 
-] [6] [7]) (./paragraphs/paragraph-02.tex [8]) (./paragraphs/paragraph-03.tex [9
+] [7] [8]) (./paragraphs/paragraph-02.tex [9]) (./paragraphs/paragraph-03.tex [10
 
-] [10
+] [11
 
-]) (./paragraphs/paragraph-04.tex [11] [12
+] [12]) (./paragraphs/paragraph-04.tex [13] [14
 
-] [13]) (./paragraphs/paragraph-05.tex [14] [15
+] [15]) (./paragraphs/paragraph-05.tex [16] [17
 
-] [16] [17]) (./paragraphs/paragraph-06.tex [18]
+] [18] [19]) (./paragraphs/paragraph-06.tex [20]
 Missing character: There is no р (U+0440) in font cmmi12!
 Missing character: There is no р (U+0440) in font cmmi12!
 Missing character: There is no р (U+0440) in font cmmi12!
-) (./paragraphs/paragraph-07.tex [19
+) (./paragraphs/paragraph-07.tex [21
 
-] [20
+] [22
 
 ]
 Missing character: There is no а (U+0430) in font cmmi12!
- [21]) (./paragraphs/paragraph-08.tex [22] [23
+ [23] [24] [25]) (./paragraphs/paragraph-08.tex [26] [27
 
-]) (./paragraphs/paragraph-09.tex [24] [25
+] [28]) (./paragraphs/paragraph-09.tex [29] [30
 
 ]
 Missing character: There is no е (U+0435) in font cmmi12!
 Missing character: There is no е (U+0435) in font cmmi12!
 Missing character: There is no К (U+041A) in font cmmi12!
- [26]
+ [31]
 Missing character: There is no О (U+041E) in font cmmi12!
-) [27]
+) [32]
 \tf@toc=\write5
 
 \openout5 = main.toc
@@ -1185,23 +1185,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3944E3AA53A78F6ED521D612D0719443;5223.
+(rerunfilecheck)             Checksum: 95C344B382A3D46D47094D21776F1DF5;6682.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26237 strings out of 481365
- 244189,1373583 words of node,token memory allocated
+ 26328 strings out of 481365
+ 244180,1373583 words of node,token memory allocated
  1242 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 20 attribute, 189 glue_spec, 12 attribute_list, 2 write nodes
-   avail lists: 1:5,2:8437,3:143,4:451,5:5276,6:54,7:8113,8:64,9:10615,10:64,11:573
- 41891 multiletter control sequences out of 65536+600000
- 73 fonts using 26824851 bytes
+   avail lists: 1:2,2:9768,3:149,4:451,5:6403,6:58,7:8867,8:64,9:12722,10:64,11:785
+ 41918 multiletter control sequences out of 65536+600000
+ 73 fonts using 26824803 bytes
  52i,12n,109p,976b,1030s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-BoldItalic.otf><./fonts/STIX2/STIXTwoText-Italic.otf><./fonts/FiraCode/FiraCode-Bold.ttf><./fonts/STIX2/STIXTwoMath.otf><./fonts/FiraCode/FiraCode-Regular.ttf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
-Output written on main.pdf (27 pages, 1265749 bytes).
+Output written on main.pdf (32 pages, 1279178 bytes).
 
-PDF statistics: 684 PDF objects out of 1000 (max. 8388607)
- 619 compressed objects within 7 object streams
- 416 named destinations out of 1000 (max. 131072)
- 185 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 788 PDF objects out of 1000 (max. 8388607)
+ 717 compressed objects within 8 object streams
+ 480 named destinations out of 1000 (max. 131072)
+ 225 words of extra memory for PDF output out of 10000 (max. 100000000)
 
