@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.10)  14 JUN 2021 21:51
+This is LuaTeX, Version 1.10.0 (TeX Live 2019/Debian)  (format=lualatex 2021.6.10)  15 JUN 2021 10:28
  restricted system commands enabled.
  file:line:error style messages enabled.
 **/home/pander/luatex_projects/CPP_tutorial/main
@@ -1116,12 +1116,12 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `FiraCode' (encoding: TU).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<figures/CodeBlocks-1.png, id=158, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-1.png, id=189, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-1.png Graphic file (type png)
 <use figures/CodeBlocks-1.png>
 Package luatex.def Info: figures/CodeBlocks-1.png  used on input line 9.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
-<figures/CodeBlocks-2.png, id=159, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-2.png, id=190, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-2.png Graphic file (type png)
 <use figures/CodeBlocks-2.png>
 Package luatex.def Info: figures/CodeBlocks-2.png  used on input line 16.
@@ -1129,18 +1129,18 @@ Package luatex.def Info: figures/CodeBlocks-2.png  used on input line 16.
  [3
 
 <./figures/CodeBlocks-1.png>]
-<figures/CodeBlocks-3.png, id=169, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-3.png, id=199, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-3.png Graphic file (type png)
 <use figures/CodeBlocks-3.png>
 Package luatex.def Info: figures/CodeBlocks-3.png  used on input line 23.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
-<figures/CodeBlocks-4.png, id=170, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-4.png, id=200, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-4.png Graphic file (type png)
 <use figures/CodeBlocks-4.png>
 Package luatex.def Info: figures/CodeBlocks-4.png  used on input line 30.
 (luatex.def)             Requested size: 439.93333pt x 247.3424pt.
  [4<./figures/CodeBlocks-2.png><./figures/CodeBlocks-3.png>]
-<figures/CodeBlocks-5.png, id=178, 1028.34187pt x 578.16pt>
+<figures/CodeBlocks-5.png, id=208, 1028.34187pt x 578.16pt>
 File: figures/CodeBlocks-5.png Graphic file (type png)
 <use figures/CodeBlocks-5.png>
 Package luatex.def Info: figures/CodeBlocks-5.png  used on input line 37.
@@ -1167,15 +1167,15 @@ Missing character: There is no р (U+0440) in font cmmi12!
 Missing character: There is no а (U+0430) in font cmmi12!
  [23] [24] [25]) (./paragraphs/paragraph-08.tex [26] [27
 
-] [28]) (./paragraphs/paragraph-09.tex [29] [30
+] [28] [29] [30] [31] [32] [33] [34]) (./paragraphs/paragraph-09.tex [35] [36
 
 ]
 Missing character: There is no е (U+0435) in font cmmi12!
 Missing character: There is no е (U+0435) in font cmmi12!
 Missing character: There is no К (U+041A) in font cmmi12!
- [31]
+ [37]
 Missing character: There is no О (U+041E) in font cmmi12!
-) [32]
+) [38]
 \tf@toc=\write5
 
 \openout5 = main.toc
@@ -1185,23 +1185,23 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 95C344B382A3D46D47094D21776F1DF5;6682.
+(rerunfilecheck)             Checksum: 7E0D81A806E843E79A5A52E37813EDA8;8310.
 )
 
 Here is how much of LuaTeX's memory you used:
- 26328 strings out of 481365
- 244180,1373583 words of node,token memory allocated
+ 26469 strings out of 481365
+ 305232,1373583 words of node,token memory allocated
  1242 words of node memory still in use:
    7 hlist, 2 vlist, 2 rule, 5 glue, 4 kern, 1 glyph, 20 attribute, 189 glue_spec, 12 attribute_list, 2 write nodes
-   avail lists: 1:2,2:9768,3:149,4:451,5:6403,6:58,7:8867,8:64,9:12722,10:64,11:785
- 41918 multiletter control sequences out of 65536+600000
- 73 fonts using 26824803 bytes
- 52i,12n,109p,976b,1030s stack positions out of 5000i,500n,10000p,200000b,100000s
+   avail lists: 1:2,2:9768,3:149,4:451,5:6409,6:59,7:9590,8:64,9:12722,10:64,11:785
+ 41970 multiletter control sequences out of 65536+600000
+ 73 fonts using 26824851 bytes
+ 52i,12n,109p,1694b,1030s stack positions out of 5000i,500n,10000p,200000b,100000s
 <./fonts/STIX2/STIXTwoMath.otf><./fonts/STIX2/STIXTwoText-BoldItalic.otf><./fonts/STIX2/STIXTwoText-Italic.otf><./fonts/FiraCode/FiraCode-Bold.ttf><./fonts/STIX2/STIXTwoMath.otf><./fonts/FiraCode/FiraCode-Regular.ttf><./fonts/STIX2/STIXTwoText-Regular.otf><./fonts/STIX2/STIXTwoText-Bold.otf>
-Output written on main.pdf (32 pages, 1279178 bytes).
+Output written on main.pdf (38 pages, 1300264 bytes).
 
-PDF statistics: 788 PDF objects out of 1000 (max. 8388607)
- 717 compressed objects within 8 object streams
- 480 named destinations out of 1000 (max. 131072)
- 225 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 923 PDF objects out of 1000 (max. 8388607)
+ 845 compressed objects within 9 object streams
+ 569 named destinations out of 1000 (max. 131072)
+ 273 words of extra memory for PDF output out of 10000 (max. 100000000)
 
