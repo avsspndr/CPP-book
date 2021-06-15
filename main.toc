@@ -1,36 +1,24 @@
 \babel@toc {russian}{}
-\contentsline {chapter}{Предисловие}{2}{section*.1}%
-\contentsline {chapter}{\chapternumberline {1}Установка редактора исходного кода Code::Blocks}{3}{chapter.1}%
-\contentsline {chapter}{\chapternumberline {2}Массивы}{6}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Лабораторная работа 1. Одномерные массивы}{6}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Лабораторная работа 2. Сортировка и упорядочение массивов}{7}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Самостоятельная работа 1}{9}{section.2.3}%
-\contentsline {chapter}{\chapternumberline {3}Файлы}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Лабораторная работа 1}{10}{section.3.1}%
-\contentsline {chapter}{\chapternumberline {4}Структуры}{11}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Лабораторная работа 1}{11}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Лабораторная работа 2}{12}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Самостоятельная работа 2}{12}{section.4.3}%
-\contentsline {chapter}{\chapternumberline {5}Обработка строк}{14}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Лабораторная работа 1}{14}{section.5.1}%
-\contentsline {subsection}{Функции работы со строками}{16}{section*.2}%
-\contentsline {chapter}{\chapternumberline {6}Динамические типы данных}{17}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Лабораторная работа 1}{17}{section.6.1}%
-\contentsline {chapter}{\chapternumberline {7}Рекурсия}{21}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Лабораторная работа}{21}{section.7.1}%
-\contentsline {chapter}{\chapternumberline {8}Функции и указатели}{22}{chapter.8}%
-\contentsline {section}{\numberline {8.1}Лабораторная работа 1. Указатели}{22}{section.8.1}%
-\contentsline {section}{\numberline {8.2}Лабораторная работа 2. Подпрограммы-функции}{23}{section.8.2}%
-\contentsline {section}{\numberline {8.3}Лабораторная работа 3. Функции, указатели}{24}{section.8.3}%
-\contentsline {section}{\numberline {8.4}Самостоятельная работа 1. Функции и файлы}{25}{section.8.4}%
-\contentsline {section}{\numberline {8.5}Самостоятельная работа 2. Функции, указатели}{25}{section.8.5}%
-\contentsline {chapter}{\chapternumberline {9}ООП}{27}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Лабораторная работа 1}{27}{section.9.1}%
-\contentsline {section}{\numberline {9.2}Лабораторная работа 2}{28}{section.9.2}%
-\contentsline {section}{\numberline {9.3}Лабораторная работа 3}{29}{section.9.3}%
-\contentsline {section}{\numberline {9.4}Лабораторная работа}{30}{section.9.4}%
-\contentsline {section}{\numberline {9.5}Самостоятельная работа}{31}{section.9.5}%
-\contentsline {section}{\numberline {9.6}Лабораторная работа 4. Шаблоны функций}{32}{section.9.6}%
-\contentsline {section}{\numberline {9.7}Лабораторная работа 5. Векторы}{32}{section.9.7}%
-\contentsline {section}{\numberline {9.8}Лабораторная работа 6. Алгоритмы STL}{33}{section.9.8}%
-\contentsline {chapter}{\chapternumberline {10}Общие задачи}{36}{chapter.10}%
+\contentsline {chapter}{Установка редактора исходного кода Code::Blocks}{2}{chapter*.2}%
+\contentsline {chapter}{\chapternumberline {1}Массивы}{5}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Одномерные массивы}{5}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Сортировка и упорядочение массивов}{5}{section.1.2}%
+\contentsline {chapter}{\chapternumberline {2}Файлы}{7}{chapter.2}%
+\contentsline {chapter}{\chapternumberline {3}Структуры}{8}{chapter.3}%
+\contentsline {chapter}{\chapternumberline {4}Обработка строк}{11}{chapter.4}%
+\contentsline {subsection}{Функции работы со строками}{12}{section*.3}%
+\contentsline {chapter}{\chapternumberline {5}Динамические типы данных}{13}{chapter.5}%
+\contentsline {chapter}{\chapternumberline {6}Рекурсия}{14}{chapter.6}%
+\contentsline {chapter}{\chapternumberline {7}Функции и указатели}{15}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Указатели}{15}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Подпрограммы-функции}{16}{section.7.2}%
+\contentsline {section}{\numberline {7.3}Функции и указатели}{17}{section.7.3}%
+\contentsline {section}{\numberline {7.4}Функции и файлы}{18}{section.7.4}%
+\contentsline {chapter}{\chapternumberline {8}Объектно-ориентированное программирование}{20}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Классы}{20}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Шаблоны функций}{23}{section.8.2}%
+\contentsline {section}{\numberline {8.3}Векторы}{23}{section.8.3}%
+\contentsline {section}{\numberline {8.4}Алгоритмы STL}{24}{section.8.4}%
+\contentsline {chapter}{\chapternumberline {9}Общие задачи}{26}{chapter.9}%
+\contentsline {chapter}{Ответы и указания}{29}{chapter*.4}%
+\contentsline {chapter}{Темы проектных работ}{37}{chapter*.11}%

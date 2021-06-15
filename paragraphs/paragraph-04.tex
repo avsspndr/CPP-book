@@ -1,56 +1,9 @@
 \chapter{Обработка строк}
-\section{Лабораторная работа 1}
 \begin{enumerate}[leftmargin=*]
     \item В заданном тексте заменить все символы <<+>> на << - >>. В данной задаче воспользуйтесь массивом символов (Заголовочный файл \monobf{\color{LimeGreen}cstring}).
-    \begin{lstlisting}
-        #include<iostream>
-        #include<cstring>
-        using namespace std;
-        int main(')
-        {   char str[50]="(5+3)*7+65+7896";
-            cout << "Initial string is: " << str << endl;
-            for (int i=0; i<strlen(str); i++')
-                if (str[i] == '+'')
-                    str[i] = '-';
-            cout << "Final string is: " << str << endl;
-            return 0;
-        }
-    \end{lstlisting}
     \item В данном тексте посчитать число символов <<+>> и <<->>.
     \item Напишите программу, которая вычисляет длину введенной с клавиатуры строки. Реализуйте код программы, используя строковый тип данных (Заголовочный файл \monobf{\color{LimeGreen}string}').
-    \begin{lstlisting}
-        #include <iostream>
-        #include <string>
-        using namespace std;
-        int main(')
-        {
-            setlocale(LC_ALL,"Russian"');
-            string s;
-            cout <<" @\color{Blue}Введите строку@: \n"; cin >> s;
-            cout <<" @\color{Blue}Строка@ " << s << " @\color{Blue}содержит@ "
-                << s.length(') << " @\color{Blue}символ(а')@.\n";
-            return 0;
-        }
-    \end{lstlisting}
     \item Задана строка символов. Определить, есть ли заданный символ «э» в этой строке символов. Выведите на экран номер первого вхождения данного символа в строке..
-    \begin{lstlisting}
-        #include <iostream>
-        #include <string>
-        using namespace std;
-        int main(')
-        {
-            setlocale(LC_ALL,"Russian"');
-            string str("@\color{Blue}Выведите на экран номер символа в строке@."');
-            string symbol="@\color{Blue}э@";
-            unsigned int pos str=str.find(symbol');
-            if ((pos>=0') && pos(<str.length(')')')
-                    cout << "@\color{Blue}Номер первого вхождения символа@ ("
-                         << symbol << "') @\color{Blue}в строке@ \n\n("
-                         << str << "')\n\n @\color{Blue}равен@: "<< pos << endl;
-            else cout << "@\color{Blue}Такого символа в строке нет@!\n";
-            return 0;
-        }
-    \end{lstlisting}
     \item Пусть задан некоторый текст. Вычислить, сколько раз повторяется наперед заданный символ <<\textbf{a}>>.
     \item Задана некоторая строка символов. Создать новую строку, которая образована из данной строки чтением от конца до начала.
     \item Задано слово. Проверить, читается ли это слово слева направо и наоборот. \textit{Простейшие \textbf{слова-палиндромы}}: мим, дед, наган, заказ, кабак, казак, мадам, шалаш.
